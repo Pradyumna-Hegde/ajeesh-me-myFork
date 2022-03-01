@@ -1,0 +1,12 @@
+.profile-wrapper{
+    text-align: center;
+}
+
+.profile-pic{
+    border: 8px solid #23283e;
+    border-radius: 50%;
+    border-top-color: #2978b5;
+    border-left-color: #23283e;
+    border-bottom-color: #90a0d9;
+    width: 20%;
+}

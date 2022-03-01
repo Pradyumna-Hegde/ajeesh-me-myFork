@@ -4,6 +4,9 @@
   right: 4em;
   background-color: transparent;
 }
+.scroll-top:hover{
+  color: #2978b5;
+}
 
 @media (max-width: 900px) {
   .scroll-top {

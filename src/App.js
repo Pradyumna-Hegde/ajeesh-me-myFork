@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import ProfilePic from './components/Profile/ProfilePic'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -17,6 +18,7 @@ const App = () => {
       <Header />
 
       <main>
+        <ProfilePic />
         <About />
         <Projects />
         <Skills />

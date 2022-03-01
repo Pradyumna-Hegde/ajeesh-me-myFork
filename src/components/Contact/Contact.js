@@ -1,18 +1,31 @@
+import { useEffect } from 'react'
+import AOS from 'aos'
 import { contact } from '../../portfolio'
+import "aos/dist/aos.css"
 import './Contact.css'
 
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  }, [])
   if (!contact.email) return null
 
   return (
-    <section className='section contact center' id='contact'>
+    <section data-aos="fade-up"  className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-      <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
-          Email me
-        </span>
-      </a>
+      <form id="submitForm" >       
+        <input name="name" type="text" className="feedback-input" placeholder="Name" />   
+        <input name="email" type="email" className="feedback-input" placeholder="Email" />
+        <textarea name="text" className="feedback-input" placeholder="Comment" />
+
+        <button type="submit" className='submit-btn btn btn--outline'>
+          Connect me  
+        </button>
+      </form>
     </section>
+
+ 
   )
 }
 

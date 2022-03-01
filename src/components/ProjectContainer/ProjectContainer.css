@@ -4,6 +4,8 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  max-width: 500px;
+  cursor: pointer;
 }
 
 .project:hover {

@@ -9,11 +9,13 @@
 
 .about__role {
   margin-top: 1.2em;
+  color: #555;
 }
 
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  text-align: justify;
 }
 
 .about__desc,

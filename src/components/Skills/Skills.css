@@ -6,7 +6,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.skills__list-item:hover{
+  color: #2978b5;
+}
 .skills__list-item {
   margin: 0.5em;
 }

@@ -1,71 +1,69 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '/',
+  title: 'JS',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+ 
+  name: 'Ajeesh',
+  role: 'MERN stack developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Highly motivated , self-taught developer seeking to launch a career building web applications and services. Familiar with development and deployment process . Currently iam studying computer engineering diploma at IPT & GPTC Shoranur ',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/ajeesh-cp',
+    github: 'https://github.com/ajeeshcp',
+    twitter:'https://twitter.com/ajeeshcp5'
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Netflix clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'Netflix clone developed using React.js and TMDB Api ',
+    stack: ['React.js', 'CSS'],
+    sourceCode: 'https://github.com/ajeeshcp/Netflix-Clone.git',
+    livePreview: 'https://ajeeshcp.github.io/Netflix-Clone/',
+  },
+  {
+    name: 'CartFact',
+    description:
+      ' CartFact is a Shopping cart developed in node js and express',
+    stack: ['HTML', 'CSS','Bootstrap', 'Node.js','Express'],
+    sourceCode: 'https://github.com/ajeeshcp/cartfact.git',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Corona Tracking',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+      ' Corona tracking application is an explanation of covid cases in india',
+    stack: ['React.js','Material UI',' Covid public APIs '],
+    sourceCode: 'https://github.com/ajeeshcp/Covid-Tracking.git',
+    livePreview: 'https://ajeeshcp.github.io/Covid-Tracking/',
+  }
+   
+  
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'HTML5',
+  'CSS3',
   'JavaScript',
-  'TypeScript',
-  'React',
+  'React.js',
   'Redux',
   'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Bootstrap',
+  'Node.js'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ajeeshcp5@gmail.com',
 }
+
+
+
 
 export { header, about, projects, skills, contact }
